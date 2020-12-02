@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/documents_css/quiz.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quiz</h1>
+      <form class="card" onsubmit="printResults()">
+        <div class="card-body">
+          <p>1. ¿Cuál es el nombre del río más largo del mundo?</p>
+          <div class="ask">
+            <div class="reverse">
+              <label for="choice1">Río Nilo</label>
+              <input
+                type="radio"
+                name="choice1"
+                value="false"
+                id="choice1"
+                required
+              />
+            </div>
+            <div class="reverse">
+              <label for="choice2">Río Amazonas</label>
+              <input type="radio" name="choice1" value="true" id="choice2" />
+            </div>
+            <div class="reverse">
+              <label for="choice3">Río Danubio</label>
+              <input type="radio" name="choice1" value="false" id="choice3" />
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <p>2. ¿Cuál es el océano más grande del mundo?</p>
+          <div class="ask">
+            <div class="reverse">
+              <label for="choice4">Océano Pacífico</label>
+              <input
+                type="radio"
+                name="choice2"
+                value="true"
+                id="choice4"
+                required
+              />
+            </div>
+            <div class="reverse">
+              <label for="choice5">Océano Índico</label>
+              <input type="radio" name="choice2" value="false" id="choice5" />
+            </div>
+            <div class="reverse">
+              <label for="choice6">Océano Atlántico</label>
+              <input type="radio" name="choice2" value="false" id="choice6" />
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <p>3. ¿Cuál es el país más grande del mundo?</p>
+          <div class="ask">
+            <div class="reverse">
+              <label for="choice7">China</label>
+              <input
+                type="radio"
+                name="choice3"
+                value="true"
+                id="choice7"
+                required
+              />
+            </div>
+            <div class="reverse">
+              <label for="choice8">Rusia</label>
+              <input type="radio" name="choice3" value="false" id="choice8" />
+            </div>
+            <div class="reverse">
+              <label for="choice9">India</label>
+              <input type="radio" name="choice3" value="false" id="choice9" />
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <p>4. ¿Cuál es el país que tiene forma de bota?</p>
+          <div class="ask">
+            <div class="reverse">
+              <label for="choice10">España</label>
+              <input
+                type="radio"
+                name="choice4"
+                value="true"
+                id="choice10"
+                required
+              />
+            </div>
+            <div class="reverse">
+              <label for="choice11">Honduras</label>
+              <input type="radio" name="choice4" value="false" id="choice11" />
+            </div>
+            <div class="reverse">
+              <label for="choice12">Italia</label>
+              <input type="radio" name="choice4" value="false" id="choice12" />
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn">Send</button>
+      </form>
+
+      <div id="results"></div>
+    </div>
+    <script src="/documents_js/quiz.js"></script>
+  </body>
+</html>

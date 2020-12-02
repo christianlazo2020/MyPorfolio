@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://image.freepik.com/vector-gratis/patron-signos-interrogacion_1319-109.jpg");
+  font-size: 1.8rem;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: solid 3px lightgray;
+  height: auto;
+  border-radius: 1rem;
+  align-items: center;
+  background-color: transparent;
+}
+
+.card-body {
+  width: 90%;
+  height: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+  border: solid 1px black;
+  border-radius: 2rem;
+  background-color: black;
+}
+
+.btn {
+  font-size: 2rem;
+  color: white;
+  background-color: black;
+  border-radius: 0.3rem;
+  padding: 0.5rem 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.ask {
+  display: flex;
+  flex-direction: column;
+}
+
+.reverse {
+  display: flex;
+  margin: 0.5rem 0;
+}
+
+.card-final {
+  margin-top: 0.2rem;
+  border-radius: 2rem;
+  color: yellow;
+  font-size: 6rem;
+  background-color: black;
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
